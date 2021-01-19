@@ -12,10 +12,10 @@ const scopes = [
 
 export const getTokenFromUrl = () => {
 	return window.location.hash
-		.substring()
+		.substring(1)
 		.split('&')
 		.reduce((initial, item) => {
-			let parts = item.split('=');
+			var parts = item.split('=');
 			initial[parts[0]] = decodeURIComponent(parts[1]);
 			return initial;
 		}, {});
