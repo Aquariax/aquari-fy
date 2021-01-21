@@ -9,3 +9,6 @@
 .sidebarOption:hover {
 	color: white;
 }
+.sidebarOption_icon {
+	padding: 0px 10px;
+}
