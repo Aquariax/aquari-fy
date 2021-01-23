@@ -1,5 +1,5 @@
 export const authEndpoint = 'https://accounts.spotify.com/authorize';
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'https://aquari-fy.web.app/';
 const clientId = '158917f7f739446da9df1cbfa58f2fdf';
 
 const scopes = [
