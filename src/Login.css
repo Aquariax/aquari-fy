@@ -1,8 +1,9 @@
 .login {
 	display: grid;
 	place-items: center;
-	height: 100vh;
+	height: 100%;
 	background-color: black;
+	padding: 10px;
 }
 .login > img {
 	width: 100%;

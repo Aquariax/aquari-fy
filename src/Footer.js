@@ -13,10 +13,14 @@ function Footer() {
 	return (
 		<div className='footer'>
 			<div className='footer_left'>
-				<img src='' alt='' />
+				<img
+					className='footer_albumLogo'
+					src='https://i.scdn.co/image/ab67616d0000b273b5371df75c13182b15ae475f'
+					alt=''
+				/>
 				<div className='footer_songInfo'>
-					<h4>Song</h4>
-					<p>Artist</p>
+					<h4>Thief</h4>
+					<p>Ansel Elgort</p>
 				</div>
 			</div>
 			<div className='footer_center'>

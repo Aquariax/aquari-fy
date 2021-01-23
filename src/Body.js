@@ -3,6 +3,7 @@ import React from 'react';
 import './Body.css';
 import Header from './Header';
 import { useStateValue } from './StateProvider';
+import SongRow from './SongRow';
 
 function Body({ spotify }) {
 	const [{ discover_weekly }, dispatch] = useStateValue();
